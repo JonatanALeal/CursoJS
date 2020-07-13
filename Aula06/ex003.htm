@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Primeiro Programa</title>
+</head>
+<style>
+    body {
+        background-color: rgb(63, 12, 110);
+        color: white;
+        font: normal 20pt Arial;
+    }
+    h1 {
+        color: gray;
+    }
+    
+</style>
+<body>
+   <h1>Hello World</h1> 
+   <p>Me Livrei da Maldição</p>
+
+   <script>
+       // parseInt convertendo variavel para number inteiro
+       // parseFloat .flutuante
+       // atualizado apenas Number(n) reconhece tipos de numeros
+       var n1 = Number.parseInt(prompt("Digite um número: "));
+       //"Number" manipulação dos dados inteiros e floats 
+       var n2 = Number.parseInt(prompt("Digite outro número: "));
+       var soma = n1 + n2;
+       //alert("A soma dos números: " + soma); CONCAT
+       //placeHolder template ${var} usar CRASE (` `); 
+       alert(`A soma entre ${n1} + ${n2} é ${soma}.`);
+       // converter numero para String
+       //alert("A soma das variáveis" + soma.toString());
+       //alert("A soma das variáveis" + String(soma));
+    
+   </script>
+</body>
+</html>
